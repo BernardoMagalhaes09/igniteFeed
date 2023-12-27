@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(26, 31, 31);
+  color: rgb(255, 255, 255);
+  -webkit-font-snoothing: antialiased;
+
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px #00B37E;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
